@@ -104,12 +104,10 @@ if os.path.exists(test_dir) == False:
 for i in imgs:
     print(i)
     tmp_img = cv2.imread(i)
-    width, height = tmp_img.shape[0], tmp_img.shape[1]
     
     new_w, new_h = int(lowest_dim), int(lowest_dim)
     
     resized_img = cv2.resize(tmp_img, (new_w, new_h), interpolation=cv2.INTER_AREA)
-    
     
     # cv2.imwrite(test_dir + os.path.basename(i), resized_img)
     cv2.imwrite(i, resized_img)
