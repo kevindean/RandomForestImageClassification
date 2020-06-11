@@ -8,7 +8,7 @@ import re
 from glob import glob
 import cv2
 
-from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import roc_curve, auc
 import pandas as pd
