@@ -20,7 +20,7 @@ searches = ['tree.jpg',
             'dog.jpg',
             'flower.jpg',
             'cat.jpg',
-            'skyclouds.jpg'] # cloud sometimes return cluster info shit
+            'skyclouds.jpg'] # cloud sometimes return cluster info
 
 url_lists = [[], [], [], [], [], []]
 
