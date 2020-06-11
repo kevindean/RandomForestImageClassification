@@ -1,8 +1,6 @@
 from googlesearch import search
 import requests
 from bs4 import BeautifulSoup
-from collections import Counter
-from string import punctuation
 import numpy as np
 import urllib.request as urllib2
 import os
